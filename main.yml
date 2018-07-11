@@ -1,0 +1,5 @@
+---
+- hosts: gitlab
+  sudo: yes
+  roles:
+    - ansible-role-gitlab
